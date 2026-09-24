@@ -1,0 +1,14 @@
+{
+  "input_filename": "returns.csv",
+  "input_sha256": "c92b21bedd7ec8659d8de405f46e82dc89884af7d8bc2b291a1b9aa1facab84b",
+  "return_units": "decimal fractional returns per period",
+  "observation_count": 5,
+  "initial_wealth": "1",
+  "terminal_wealth": "1.0284813000",
+  "cumulative_compounded_return": "0.0284813000",
+  "arithmetic_mean_return_per_period": "0.008",
+  "maximum_drawdown_loss_magnitude": "0.10",
+  "maximum_drawdown_peak_period": 1,
+  "maximum_drawdown_trough_period": 2,
+  "numeric_encoding": "Decimal values serialized as strings"
+}

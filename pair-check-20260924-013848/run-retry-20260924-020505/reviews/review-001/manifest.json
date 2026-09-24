@@ -1,0 +1,14 @@
+{
+  "hashes": {
+    "REVIEW.md": "b8b202991a0c4c44fddae5987da4d6df24bf800a7a75b27719ea5ba1bb35b425",
+    "artifacts/reproduction/analyze_returns.py": "6240ee2ec6a0872744bd3fe7df2b03f6fb8307f47996a636c8b23c2301a7b561",
+    "artifacts/reproduction/metrics.json": "7dfe207ab04e0adc60413aa795ff5be03fb16533843ebe9959843bdb8935a33c",
+    "artifacts/reproduction/report.md": "aa09544c896ecbae861b5462b7fc97cdbdcb7e1b49594890ffecd1b295496646",
+    "artifacts/reproduction/wealth_path.csv": "d15a9b5ae66309fb0a617cd668d75aad33ec7113d3f71e72acc6a997bf6643f0",
+    "artifacts/reproduction_stdout.txt": "7dfe207ab04e0adc60413aa795ff5be03fb16533843ebe9959843bdb8935a33c",
+    "artifacts/verification_results.json": "819dbfc3444d9716827ee5737b8ec337979002ee9d50cd6f8d9bedd6f96b3f47",
+    "artifacts/verify_submission.py": "37e950a02f7213fd35de77f42d2ac0fd67a1306bd6192294fd9556cc7e9aee69",
+    "raw-review.json": "e952176c84340abfb5215e2c1a78f3319bb8660ba54abf1a30d521d95d2f46ee",
+    "record.json": "599a6feac492e60ae12ed5490f133e08dc0da80e4a989d5b27d4e21b098ab44e"
+  }
+}
