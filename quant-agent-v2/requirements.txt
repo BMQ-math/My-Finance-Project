@@ -1,0 +1,2 @@
+# Runtime dependencies: Python 3.11+ and the Codex CLI.
+# The Python implementation otherwise uses only the standard library.

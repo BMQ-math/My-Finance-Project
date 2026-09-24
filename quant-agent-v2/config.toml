@@ -1,0 +1,48 @@
+[model]
+# Leave blank to inherit the model configured by the local Codex CLI.
+name = ""
+reasoning_effort = "high"
+
+[budgets]
+timeout_seconds = 900
+max_context_chars = 60000
+
+[concurrency]
+max_workers = 2
+
+[session]
+sandbox = "read-only"
+approve_for_me = true
+
+[artifacts]
+root = ".quant/runs"
+
+[workflow]
+parallel_roles = ["explorer", "researcher"]
+review_role = "critic"
+final_role = "synthesizer"
+
+[permissions.explorer]
+branches = ["*"]
+writable_paths = []
+
+[permissions.researcher]
+branches = ["*"]
+writable_paths = []
+
+[permissions.critic]
+branches = ["*"]
+writable_paths = []
+
+[permissions.synthesizer]
+branches = ["*"]
+writable_paths = []
+
+# Single-pair launcher settings. The pair uses native tool permission profiles;
+# legacy workflow/session/concurrency sections above are not used by this entry point.
+[pair]
+timeout_seconds = 900
+max_reviews = 2
+max_artifacts = 256
+max_artifact_bytes = 67108864
+max_submission_bytes = 268435456
