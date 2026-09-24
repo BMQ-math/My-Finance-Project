@@ -1,9 +1,0 @@
-{
-  "report": "report.md",
-  "artifacts": [
-    {"path": "report.md", "description": "Short research report with wealth path, formulas, interpretation, limitations, and reproduction details."},
-    {"path": "analyze_returns.py", "description": "Reproducible standard-library Python analysis using decimal arithmetic and read-only input access."},
-    {"path": "wealth_path.csv", "description": "Initial and period-end wealth, running peaks, and proportional drawdown loss magnitudes."},
-    {"path": "metrics.json", "description": "Central numerical results, drawdown endpoints, input units, and source SHA-256 hash."}
-  ]
-}

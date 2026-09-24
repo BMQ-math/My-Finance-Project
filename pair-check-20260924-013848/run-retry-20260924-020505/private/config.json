@@ -1,9 +1,0 @@
-{
-  "max_artifact_bytes": 67108864,
-  "max_artifacts": 256,
-  "max_reviews": 2,
-  "max_submission_bytes": 268435456,
-  "model": "gpt-6-astra",
-  "reasoning_effort": "high",
-  "timeout_seconds": 300.0
-}
